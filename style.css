@@ -48,8 +48,11 @@ input[placeholder]{
   }
 
   /*SIDEBAR*/
+.skills{
+    display: flex;
+}
 .sidebar{
-    width: 21%;
+    width: 19.5%;
     height: 100%;
     position: auto;
     z-index: 1;
@@ -61,13 +64,18 @@ input[placeholder]{
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 8px 6px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 14px;
     color: #030303;
     display: block;
   }
   
+  .sidebar p{
+      font-size: 13px;
+      color: #606060;
+  }
+
   .sidebar a:hover {
     background-color: aqua;
   }
@@ -75,16 +83,19 @@ input[placeholder]{
   li{
       list-style: none;
       margin-right: 2rem;
+      padding: 0px 10px;
   }
 
   .subs{
       margin-left: 3rem;
+      font-size: 14px;
      
   }
 
   .more{
     margin-left: 3rem;
-    color: #818181;
+    color: #606060;
+    font-size: 14px;
 }
 
 .line{
@@ -92,9 +103,19 @@ input[placeholder]{
 }
 
 .footer{
-    color: #b1abab;
-    font-weight: 450;
+    color: #909090;
+    font-size: 12px;
 }
+
+.frame{
+    width: 80%;
+    background-color: #fdfafa;
+}
+
+.frame>ul{
+    display: flex;
+}
+
 
 
 
